@@ -157,11 +157,12 @@ namespace PMI
         public string CovStartDate { get; set; }
         public string CovEndDate { get; set; }
         public string PremRecDate { get; set; }
+        public string ClientDedCode { get; set; }
         public string BenClass { get; set; }
         public decimal? EmployeeDedAmount { get; set; }
         public decimal? CompanyFundedAmount { get; set; }
         public string CheckDate { get; set; }
-        public decimal? TotalDeductions { get; set; }
+        public decimal TotalDeductions { get; set; }
         public string CoverageStatus { get; set; }
         public string CovPlan { get; set; }
         public DateTime? CreationDate { get; set; }
